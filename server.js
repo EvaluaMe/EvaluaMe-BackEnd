@@ -108,6 +108,3 @@ app.delete("/contacts/:id", function(req, res) {
 });
 
 // *****************************************************************************
-
-
-app.use(require('./controllers/contact-endpoint'))
