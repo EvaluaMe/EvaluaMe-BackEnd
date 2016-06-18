@@ -4,8 +4,6 @@ var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
 var ObjectID = mongodb.ObjectID;
 
-var CONTACTS_COLLECTION = "contacts";
-
 var app = express();
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());

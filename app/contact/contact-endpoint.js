@@ -1,5 +1,7 @@
 module.exports = function(app, db){
 
+    var CONTACTS_COLLECTION = "contacts";
+    
     /*  "/contacts"
     *    GET: finds all contacts
     *    POST: creates a new contact
